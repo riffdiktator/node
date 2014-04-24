@@ -10,6 +10,9 @@ var express          = require('express'),
     mainPage         = require('./routes/index'),
     page             = require('./routes/page');
 
+
+
+
 var app = express();
 
 app.set('views', __dirname + '/views');
