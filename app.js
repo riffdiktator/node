@@ -8,16 +8,10 @@
 var express          = require('express'),
     path             = require('path'),
     mainPage         = require('./routes/index'),
-    page             = require('./routes/page'),
-    mysql            = require('mysql');
+    page             = require('./routes/page');
 
 
-var globalConf = {
-  "host" : "localhost",
-  "username" : "root",
-  "password" : "root",
-  "database" : "nodejs"
-}
+
 
 var app = express();
 

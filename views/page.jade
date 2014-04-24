@@ -8,4 +8,10 @@ html
       h1= title
       h2= id
       h3= action
-  
+      
+      ul
+      for row in rows
+        li
+          a(href="/user/"+row.user_id)= row.name
+          span= row.email
+        
